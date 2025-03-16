@@ -1,7 +1,6 @@
 "use client";
 
 import { useConnectModal } from "@rainbow-me/rainbowkit";
-import styles from "./page.module.css";
 import { useAccount, useDisconnect } from "wagmi";
 
 export default function Home() {
